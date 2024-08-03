@@ -6,7 +6,10 @@ Query the list of CITY names from STATION which have vowels (i.e., a, e, i, o, a
 Input Format
 
 The STATION table is described as follows:
-![](./Images/STATION.PNG)
+
+<br>![](./Images/STATION.PNG)
+
+where LAT_N is the northern latitude and LONG_W is the western longitude.
 
 ## Solution
 
