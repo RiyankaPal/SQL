@@ -14,7 +14,7 @@ where LAT_N is the northern latitude and LONG_W is the western longitude.
 ## Solution
 
 ```SQL
-SELECT CITY
+SELECT DISTINCT CITY
 FROM STATION
 WHERE SUBSTRING(CITY,len(CITY),1) in ('a','e','i','o','u') AND SUBSTRING(CITY,1,1) in ('a','e','i','o','u')
 ```
