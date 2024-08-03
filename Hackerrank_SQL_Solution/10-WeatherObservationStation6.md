@@ -12,7 +12,7 @@ The STATION table is described as follows:<br>
 
 ## Solution:
 ```SQL
-SELECT CITY
+SELECT DISTINCT CITY
 FROM STATION
 WHERE SUBSTRING(CITY,1,1) in ('a','e','i','o','u')
 ```
