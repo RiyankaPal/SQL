@@ -25,15 +25,17 @@ The empty cell data for columns with less than the maximum number of names per o
 
 ## Solution :
 ``` SQL
+WITH Occupation_CTE AS
+(
 SELECT *,
 ROW_NUMBER() OVER (PARTITION BY Occupation ORDER BY Name ) AS Row_num
-into #temp
 FROM OCCUPATIONS
+)
 
 SELECT MAX(CASE WHEN Occupation='Doctor' THEN Name  END) AS Doctor,
              MAX(CASE WHEN Occupation='Professor' THEN Name END) AS Professor,
             MAX( CASE WHEN Occupation='Singer' THEN Name END) AS Singer,
              MAX(CASE WHEN Occupation='Actor' THEN Name END) AS Actor
-FROM #temp
+FROM Occupation_CTE
 group by Row_num
 ```
