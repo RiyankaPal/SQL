@@ -7,11 +7,11 @@ Write a query identifying the type of each record in the **TRIANGLES** table usi
 **Isosceles:** It's a triangle with 2 sides of equal length.<br>
 **Scalene:** It's a triangle with 3 sides of differing lengths.<br>
 **Not A Triangle:** The given values of A, B, and C don't form a triangle.<br>
-Input Format
+Input Format<br>
 The TRIANGLES table is described as follows:
 <br>![](./Images/Triangle.PNG)<br>
 
-Each row in the table denotes the lengths of each of a triangle's three sides.
+Each row in the table denotes the lengths of each of a triangle's three sides.<br>
 Sample Input
 <br>![](./Images/Triangle_input.PNG)<br>
 Sample Output
