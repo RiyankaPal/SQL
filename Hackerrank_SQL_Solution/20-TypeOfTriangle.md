@@ -1,12 +1,12 @@
 # Type Of Triangle
 
 ## Problem Statement:
-Write a query identifying the type of each record in the *TRIANGLES* table using its three side lengths. Output one of the following statements for each record in the table:
+Write a query identifying the type of each record in the **TRIANGLES** table using its three side lengths. Output one of the following statements for each record in the table:
 
-*Equilateral:* It's a triangle with 3 sides of equal length.<br>
-*Isosceles:* It's a triangle with 2 sides of equal length.<br>
-*Scalene:* It's a triangle with 3 sides of differing lengths.<br>
-*Not A Triangle:* The given values of A, B, and C don't form a triangle.<br>
+**Equilateral:** It's a triangle with 3 sides of equal length.<br>
+**Isosceles:** It's a triangle with 2 sides of equal length.<br>
+**Scalene:** It's a triangle with 3 sides of differing lengths.<br>
+**Not A Triangle:** The given values of A, B, and C don't form a triangle.<br>
 Input Format
 The TRIANGLES table is described as follows:
 <br>![](./Images/Triangle.PNG)<br>
