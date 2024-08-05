@@ -1,5 +1,6 @@
 # New Companies
-## Amber's conglomerate corporation just acquired some new companies. Each of the companies follows this hierarchy:<br>
+## Problem Statement:
+Amber's conglomerate corporation just acquired some new companies. Each of the companies follows this hierarchy:<br>
 ![](./Images/Company_diag.PNG)<br>
 Given the table schemas below, write a query to print the company_code, founder name, total number of lead managers, total number of senior managers, total number of managers, and total number of employees. Order your output by ascending company_code.<br>
 
@@ -12,7 +13,7 @@ The following tables contain company data:<br>
 
 - Company: The company_code is the code of the company and founder is the founder of the company. <br>
 ![](./Images/Company.PNG)<br>
--Lead_Manager: The lead_manager_code is the code of the lead manager, and the company_code is the code of the working company.<br>
+- Lead_Manager: The lead_manager_code is the code of the lead manager, and the company_code is the code of the working company.<br>
 ![](./Images/LeadManager.PNG)<br>
 - Senior_Manager: The senior_manager_code is the code of the senior manager, the lead_manager_code is the code of its lead manager, and the company_code is the code of the working company.<br>
 ![](./Images/SeniorManager.PNG)<br>
