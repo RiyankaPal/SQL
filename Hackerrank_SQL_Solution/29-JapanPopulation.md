@@ -5,7 +5,7 @@ Query the sum of the populations for all Japanese cities in CITY. The COUNTRYCOD
 
 Input Format
 
-The CITY table is described as follows:
+The CITY table is described as follows:<br>
 ![](./Images/City.PNG)<br><br>
 
 ## Solution:
