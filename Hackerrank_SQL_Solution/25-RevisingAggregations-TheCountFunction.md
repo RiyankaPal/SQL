@@ -5,7 +5,7 @@ Query a count of the number of cities in CITY having a Population larger than 10
 
 Input Format<br>
 
-The CITY table is described as follows:
+The CITY table is described as follows:<br><br>
 ![](./Images/City.PNG)<br>
 
 ## Solution:
