@@ -7,7 +7,7 @@ Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
 Input Format
 
 The CITY and COUNTRY tables are described as follows:
-![](./Images/CITY.PNG)<br><br>
+![](./Images/City.PNG)<br><br>
 ![](./Images/Country.PNG)<br><br>
 
 ## Solution:
