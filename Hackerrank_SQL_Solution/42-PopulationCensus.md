@@ -1,12 +1,13 @@
 # Population Census
 ## Problem Statement:
-Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.
+Given the CITY and COUNTRY tables, query the sum of the populations of all cities where the CONTINENT is 'Asia'.<br>
 
-Note: CITY.CountryCode and COUNTRY.Code are matching key columns.
+Note: CITY.CountryCode and COUNTRY.Code are matching key columns.<br>
 
-Input Format
+Input Format<br>
 
-The CITY and COUNTRY tables are described as follows:
+The CITY and COUNTRY tables are described as follows:<br>
+
 ![](./Images/City.PNG)<br><br>
 ![](./Images/Country.PNG)<br><br>
 
