@@ -6,7 +6,7 @@ It allows you to explore predefined SQL queries on a sample SQLite database.
 ---
 
 ## 📂 Project Structure
-
+```bash
 sql_demo_app/
 │
 ├── data/
@@ -18,6 +18,7 @@ sql_demo_app/
 ├── setup_db.py # Script to create tables and insert sample data
 ├── app.py # Main Streamlit app
 └── requirements.txt # Required Python packages
+```
 
 
 ---
