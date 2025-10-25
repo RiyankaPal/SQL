@@ -10,16 +10,20 @@ st.title("🧠 SQL Query Demo App")
 st.write("Explore SQL queries on a sample database interactively!")
 
 # Get absolute path relative to this file
-BASE_DIR = os.path.dirname(__file__)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+# Path to queries.json
 queries_path = os.path.join(BASE_DIR, 'queries', 'queries.json')
 
 # Load queries
-with open(queries_path) as f:
+with open(queries_path, 'r') as f:
     queries = json.load(f)
 
+# Path to SQLite DB
+db_path = os.path.join(BASE_DIR, 'data', 'sample.db')
 
 # Connect to DB
-conn = sqlite3.connect('data/sample.db')
+conn = sqlite3.connect(db_path)
 
 # Dropdown to choose query
 query_name = st.selectbox("Select a query to run:", list(queries.keys()))
