@@ -1,0 +1,7 @@
+{
+    "All Employees": "SELECT * FROM employees",
+    "All Departments": "SELECT * FROM departments",
+    "Employee Details with Department": "SELECT e.emp_name, d.dept_name, e.salary FROM employees e JOIN departments d ON e.dept_id = d.dept_id",
+    "Average Salary by Department": "SELECT d.dept_name, AVG(e.salary) AS avg_salary FROM employees e JOIN departments d ON e.dept_id = d.dept_id GROUP BY d.dept_name",
+    "Employees with Salary > X": "SELECT * FROM employees WHERE salary > ?"
+}
