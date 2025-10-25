@@ -2,15 +2,21 @@ import streamlit as st
 import sqlite3
 import pandas as pd
 import json
+import os
 
 st.set_page_config(page_title="SQL Demo App", layout="centered")
 
 st.title("🧠 SQL Query Demo App")
 st.write("Explore SQL queries on a sample database interactively!")
 
+# Get absolute path relative to this file
+BASE_DIR = os.path.dirname(__file__)
+queries_path = os.path.join(BASE_DIR, 'queries', 'queries.json')
+
 # Load queries
-with open('queries/queries.json') as f:
+with open(queries_path) as f:
     queries = json.load(f)
+
 
 # Connect to DB
 conn = sqlite3.connect('data/sample.db')
