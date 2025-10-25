@@ -13,7 +13,7 @@ st.write("Explore SQL queries on a sample database interactively!")
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 # Path to queries.json
-queries_path = os.path.join(BASE_DIR, 'queries', 'queries.json')
+queries_path = os.path.join(BASE_DIR, 'Queries', 'queries.json')
 
 # Load queries
 with open(queries_path, 'r') as f:
